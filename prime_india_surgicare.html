@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prime India Surgicare</title>
+  <meta name="description" content="Prime India Surgicare - Wholesale & Retail dealers of general & surgical instruments in Bengaluru." />
+  <style>
+    :root{--accent:#e53935;--muted:#6b7280;--card:#ffffff}
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;margin:0;background:#f3f4f6;color:#111}
+    .container{max-width:1100px;margin:30px auto;padding:20px}
+    header{display:flex;gap:20px;align-items:center}
+    .logo{width:96px;height:96px;background:linear-gradient(135deg,#fff,#eef2ff);border-radius:12px;display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--accent);box-shadow:0 6px 18px rgba(2,6,23,0.06)}
+    h1{margin:0;font-size:1.6rem}
+    .tag{color:var(--muted);font-size:0.95rem}
+
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:24px;margin-top:20px}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.04)}
+
+    .services{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:12px}
+    .service{padding:12px;border-radius:8px;border:1px solid #eef2f6;background:#fff;text-align:center;font-size:0.9rem}
+    .service img{max-width:80px;height:60px;object-fit:contain;display:block;margin:0 auto 8px}
+
+    .contact h3{margin:0 0 8px}
+    .contact p{margin:6px 0;color:var(--muted)}
+    a.btn{display:inline-block;padding:10px 14px;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none;font-weight:600}
+
+    footer{margin-top:24px;text-align:center;color:var(--muted);font-size:0.9rem}
+
+    /* responsive */
+    @media (max-width:900px){
+      .grid{grid-template-columns:1fr}
+      .services{grid-template-columns:repeat(2,1fr)}
+    }
+    @media (max-width:480px){
+      .services{grid-template-columns:1fr}
+      header{flex-direction:row;gap:12px}
+      h1{font-size:1.25rem}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">PIS</div>
+      <div>
+        <h1>Prime India Surgicare</h1>
+        <div class="tag">Wholesale & Retail dealers in general & surgical instruments — Bengaluru</div>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main>
+        <div class="card">
+          <h2>Our products</h2>
+          <p class="tag">A selection of general & surgical instruments, instrument trays, sterilization items and more.</p>
+
+          <div class="services">
+            <div class="service">
+              <img src="/assets/instruments-placeholder.png" alt="Surgical instruments" />
+              <div>General Surgical Instruments</div>
+            </div>
+            <div class="service">
+              <img src="/assets/sterilization-placeholder.png" alt="Sterilization" />
+              <div>Sterilization Trays & Sets</div>
+            </div>
+            <div class="service">
+              <img src="/assets/specialty-placeholder.png" alt="Specialty" />
+              <div>Specialty Instruments</div>
+            </div>
+            <div class="service">
+              <img src="/assets/tools-placeholder.png" alt="Tools" />
+              <div>Dental & Small Instruments</div>
+            </div>
+            <div class="service">
+              <img src="/assets/kits-placeholder.png" alt="Kits" />
+              <div>Surgical Kits & Sets</div>
+            </div>
+            <div class="service">
+              <img src="/assets/custom-placeholder.png" alt="Custom" />
+              <div>Custom Orders & Bulk Supply</div>
+            </div>
+          </div>
+
+          <section style="margin-top:16px">
+            <h3>About Prime India Surgicare</h3>
+            <p class="tag">We supply high-quality surgical & general instruments to hospitals, clinics, dental practices and educational institutions across Bengaluru and India. Fast delivery, competitive wholesale pricing and strict quality checks.</p>
+          </section>
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <h2>Why choose us?</h2>
+          <ul style="margin:8px 0 0 18px;color:var(--muted)">
+            <li>Wide range of instruments (general, surgical, dental)</li>
+            <li>Wholesale & retail with competitive pricing</li>
+            <li>Quick order processing and delivery across India</li>
+            <li>Customer support and after-sales service</li>
+          </ul>
+        </div>
+      </main>
+
+      <aside>
+        <div class="card contact">
+          <h3>Contact</h3>
+          <p><strong>Mob:</strong> 8154900844, 8088735554</p>
+          <p><strong>Office:</strong> 9448036470</p>
+          <p><strong>Email:</strong> <a href="mailto:dennispatel28@gmail.com">dennispatel28@gmail.com</a></p>
+
+          <h4 style="margin-top:12px">Address</h4>
+          <p class="tag">No. 2/3, 1st Floor, 1st Main Road 'E' Block, Dr. Rajkumar Road,<br/>Near Subramanya Police Station, Subramanyanagar Stage 2,<br/>Bengaluru - 560010</p>
+
+          <a class="btn" href="mailto:dennispatel28@gmail.com?subject=Product%20Enquiry">Email us</a>
+          <div style="margin-top:12px">
+            <a class="btn" href="tel:+918154900844" style="background:#0b74de">Call now</a>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <h3>Quick enquiry</h3>
+          <form action="mailto:dennispatel28@gmail.com" method="post" enctype="text/plain">
+            <label style="display:block;margin:8px 0 4px;font-size:0.9rem;color:var(--muted)">Name</label>
+            <input type="text" name="Name" style="width:100%;padding:10px;border-radius:8px;border:1px solid #e6e9ef" required />
+            <label style="display:block;margin:8px 0 4px;font-size:0.9rem;color:var(--muted)">Message</label>
+            <textarea name="Message" rows="4" style="width:100%;padding:10px;border-radius:8px;border:1px solid #e6e9ef" required></textarea>
+            <button type="submit" class="btn" style="margin-top:8px">Send</button>
+          </form>
+        </div>
+
+      </aside>
+    </div>
+
+    <footer>
+      © Prime India Surgicare — Wholesale & Retail Surgical Instruments — Bengaluru
+    </footer>
+  </div>
+</body>
+</html>
